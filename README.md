@@ -2,7 +2,7 @@
   Portifólio Discover
 </h1>
 
-![Social tree - Google Chrome 28_07_2022 15_20_11](https://user-images.githubusercontent.com/93893533/181612291-68a927ed-c4f0-4815-a2aa-10997f6f0608.png)
+![Portifólio Discover - Google Chrome 30_07_2022 17_03_36](https://user-images.githubusercontent.com/93893533/181994601-f9128cce-ae0b-4e86-8fe4-4d85f09776d4.png)
 
 <br />
 
@@ -10,7 +10,7 @@
 
 Projeto de uma página para um possível portifólio de projetos do Github.
 
- <h3 align="center"><a href="https://johnpetros.github.io/social-tree/">Veja a Página funcionando 👀</a></h3>
+ <h3 align="center"><a href="https://johnpetros.github.io/portifolio-discover/">Veja a Página funcionando 👀</a></h3>
 
  <br>
 
@@ -25,4 +25,3 @@ Esse projeto foi desenvolvido com as seguintes tecnologias
 ---
 
 Feito com 💜 by João Pedro 👋🏻
-
