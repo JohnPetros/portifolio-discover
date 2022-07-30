@@ -1,0 +1,255 @@
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    background-color: var(--body-bg-color);
+    font-family: 'Poppins', sans-serif;
+
+
+
+    display: flex;
+    justify-content: center;
+   
+}
+
+body h1, h2, h3 {
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+}
+
+body p {
+    font-size: 1.4rem;
+}
+
+aside {
+    flex: 1;
+}
+
+aside .card {
+    width: 80%;
+}
+
+.card {
+    margin-bottom: 30px;
+    background-color: var(--bg-cards);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.329);
+    transition: all .4s ;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+#profile {
+    display: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    height: 40vh;
+    padding: 32px 56px;
+}
+
+#profile .profile-image {
+    margin-inline: auto;
+    margin-bottom: 30px;
+    border: solid #00FF00 2px;
+   
+}
+
+.profile-image {
+    width: 12.8rem;
+    height: 12.8rem;
+    background-image: url(https://avatars.githubusercontent.com/u/93893533?v=4);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+
+#links {
+    padding: 30px 40px;
+    height: 48vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#links .link {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+#techs {
+    height: 30vh;
+    padding: 30px 20px;
+}
+
+#techs #techs-group {
+  
+   width: 100%;
+   height: 80%;
+
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+#techs .tech {
+    background-color: var(--bg-techs);
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 28%;
+    height: 20%;
+
+    border-radius: 30px;
+
+}
+
+#education {
+    height: 45vh;
+    padding: 30px 20px;
+}
+
+#education #educations {
+    width: 100%;
+    height: 100%;
+}
+
+#education #educations li {
+    font-size: 1.4rem;
+    font-weight: 900;
+    list-style-position: inside;
+}
+
+#education #educations p {
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+
+main {
+    flex: 2;
+}
+
+#my-projects, #posts-title-container {
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+#my-projects h2, #posts-title-container h2 {
+    padding-top: 20px;
+}
+
+#projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 48%;
+    padding: 25px;
+}
+
+.project .project-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    width: 100%;
+}
+
+.project .project-title h3 {
+    font-size: 1.6rem;
+    padding-top: 13px;
+}
+
+.project .project-description {
+    margin-bottom: 35px;
+}
+
+.project .project-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project .project-details .project-stars-and-branchs {
+    width: 40%;
+    display: flex;
+    gap: 15px;
+}
+
+.project-stars,
+.project-branchs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-stars p,
+.project-branchs p {
+    padding-top: 5px;
+}
+
+.post {
+    display: flex;
+    height: 28vh;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.post .post-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post .post-content .post-description > p {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+}
+
+.post .post-content .post-description .post-tags {
+    display: flex;
+}
